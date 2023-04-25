@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Formulario de registro</h1>
+
+    <form>
+        
+        <table>
+
+            <tr>
+            <td align="center">Nombre:<input name="nombres" maxlength="50"><br></td>
+            </tr>
+            <tr>
+            <td align="center">Apellido:<input name="apellidos" maxlength="50" ><br></td>
+            </tr>
+
+        </table><br>
+        
+        Sexo:
+        <input name="Sexo" type="radio" value="M" >Masculino
+        <input name="Sexo" type="radio" value="F" >Femenino
+        <input name="Sexo" type="radio" value="NB" >No Binario<br>
+        <br>
+
+        Estado Civil:
+        <select name="estado civil" id="estado civil">
+            <option value="S">Soltero</option>
+            <option value="C">Casado</option>
+            <option value="D">Divorciado</option>
+        </select><br>
+        
+        <br>
+        <input type="checkbox" checked> Deseo recibir información sobre novedades y ofertas<br>
+        <br>
+        <input type="checkbox"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+        <br>
+        <br><input type="submit" name="enviar" id="enviar">
+
+    </form>    
+</body>
+</html>
